@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+</head>
+
+<body>
+    <h1>Formulario de Registro</h1>
+    <form action=""  >
+
+        <p><input type="text" name="Nombres" id="mi-nombre" placeholder="Ingrese sus nombres" required></p>
+        <p></p><input type="text" name="Apellido" id="mi-apellido" placeholder="Ingrese sus apellidos" ></p>
+        <p></p><span>Fecha de nacimiento :</span><br>
+        <input type="date" /></p>
+        <select name="sexo" id="mi-sexo" required>
+            <option value="">Sexo</option>
+            <option value="Masculino">Masculino</option>
+            <option value="Fememnino">Femenino</option>
+            <option value="Otros">otros</option>           
+        </select>
+
+
+
+        <select name="departamento" id="mi-departamento" required>
+            <option value="">Selecciona un departamento</option>
+            <option value="Amazonas">Amazonas</option>
+            <option value="Ancash">Ancash</option>
+            <option value="Apurímac">Apurímac</option>
+            <option value="Arequipa">Arequipa</option>
+            <option value="Ayacucho">Ayacucho</option>
+            <option value="Cajamarca">Cajamarca</option>
+            <option value="Callao">Callao</option>
+            <option value="Cusco">Cusco</option>
+            <option value="Huancavelica">Huancavelica</option>
+            <option value="Huanuco">Huanuco</option>
+            <option value="Ica">Ica</option>
+            <option value="Junín">Junín</option>
+            <option value="La Libertad">La Libertad</option>
+            <option value="Lambayeque">Lambayeque</option>
+            <option value="Lima">Lima</option>
+            <option value="Loreto">Loreto</option>
+            <option value="Madre de Dios">Madre de Dios</option>
+            <option value="Moquegua">Moquegua</option>
+            <option value="Pasco">Pasco</option>
+            <option value="Piura">Piura</option>
+            <option value="Puno">Puno</option>
+            <option value="San Martín">San Martín</option>
+            <option value="Tacna">Tacna</option>
+            <option value="Tumbes">Tumbes</option>
+            <option value="Ucayali">Ucayali</option>
+        </select></p>
+        <p><input type="text" name="dni" id="mi-dni" placeholder="DNI" max="8" required></p>
+        <p><input type="text" name="telefono" id="mi-telefono" placeholder="Telefono/Celular" required /></p>
+        <p><input type="email" name="email" id="mi-email"  placeholder="Correo electronico"  required /></p>
+        <p><input type="password" name="password" id="mi-password" placeholder="Password"  required></p>
+        <p>
+            <span >Grado de Intruccion:</span><br>
+           <input type="radio"  name="opcion-registro" checked   /> tecnico
+          <!-- checked sirve para dejar marcado por defecto  -->
+          <input type="radio" name="opcion-registro"    /> bachiller
+    
+          <input type="radio" name="opcion-registro"    /> maestria
+          <input type="radio" name="opcion-registro"    /> Doctorado
+
+        </p>
+        <input type="submit" name="registro" id="mi-Registro" value="Registrarte"/>
+    </form>
+
+
+</body>
+
+</html>
