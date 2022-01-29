@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+
+    <!-- formularios -->
+
+    <form action="" method="">
+        <!-- el accion es la direccion hacia donde vamos a enviar los datos del formulario -->
+        <!-- method es el tipo de metado http q se usara pra enviuar la informacion -->
+        <!-- get: obternet informacion   post : crear o envair informacion   put : actualizar delete: borrar -->
+
+        <input type="text" name="nombre" id="mi-nombre" placeholder="ingrese sunombre" required>
+        <input type="text" name="ip"  value="127.0.0.1" readonly>
+        <input type="text" name="numero-de-hijos" value="5" disabled>
+        <!-- disable no se envia al servidor , recomendable es usar readonly -->
+
+        <input type="number" name="dni" placeholder="Ingrese su dni" minlenght="8">
+        <input type="number" name=""  min="0" placeholder="pasos"   step="15">
+
+
+        <input type="email" name="email" id="mi-email" placeholder="ingrese su email">
+        <input type="password" name="password" id="mi-password" placeholder="ingrese su password">
+        <input type="submit" name="" id="" value="ingresar"">
+    </form>
+</body>
+</html>
