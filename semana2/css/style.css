@@ -1,0 +1,139 @@
+
+
+
+
+
+body{
+    font-family: helvetica;
+}
+
+h1{
+    background-color: rgba(0, 0, 0, 0);
+    color: #f01
+    
+}
+
+h2 {
+    background-color: rgb(35, 160, 197);
+    color: green;
+}
+ /*p{
+     color: yellow;
+     background-color: rgb(0, 255, 242);
+ }*/
+ a {
+     background-color: yellowgreen;
+     color: pink;
+     
+ }
+
+
+    #contenedor-uno {
+        background-color: rgb(17, 89, 97);
+    }
+    #contenedor-dos {
+        background-color: yellow;
+    }
+    /* para poder acceder a un elemnto  que tiene un cllass usamos el . */
+
+
+    .contenedor-principal {
+        background-color: violet;
+        padding: 20px;
+    }
+
+    .btn-ingresar {
+        background-color: tomato;
+        color: #fff;
+        /*cambio color de letra*/
+        padding: 10px;
+        /*espacio*/
+        border-radius: 8px;
+
+        border: none;
+        /*anula el border de botton */
+        font-size: 20px;
+    }
+    .btn-registro {
+        
+        font-size: 20px;
+        /*sepan cuando se utilza calsess se puede compartir estilos*/
+
+    }
+    .contenedor-form{
+        border: 3px solid rgb(242, 122, 30);
+    border-radius: 20px;
+    }
+    .contenedor-interno-form{
+        padding: 20px;
+        text-align: center;
+    }
+    .titulo-form {
+        color: rgb(10, 108, 174);
+    background-color: #fff;
+    }
+    .input-form{
+        border-radius: 8px;
+        border: 1px #000 solid;
+        color: blue;
+        padding: 20px;
+        width: 400px;
+
+    }
+    .input-codigo{
+        width: 100px;
+    }
+    .input-numero {
+        width: 255px;
+
+    }
+    .btn-crear{
+        border-radius: 8px;
+        border: none;
+        background-color: rgb(33, 220, 139);
+        padding: 10px;
+        color: black;
+        font-size: 20px;
+
+    }
+    /*pseudocalses
+    los elemntops tiene propiedades internas por ejempli : el hover
+    hover: es la propiedad que detecta cuando el maus esta sobre elelemtnpo , es decir estos estilos se aplican
+    solo si el mause esta sobre el dicho elemto*/
+    .btn-crear-usuario :hover{
+        background-color: blue;
+
+    }
+
+    .btn-ingresar:hover{
+        background-color: red;
+        color: black;
+        text-decoration: none;
+        padding: 50px;
+    }
+
+    /* lo elementos como el tiene pseudoclases como 
+    link
+    visited
+    hiover
+    active*/
+    /*esta pseudoclasdes aplican para todos elemtons html */
+
+    .contenedor-interno-form h1{
+        border: 2px solid#000;
+    }
+    .contenedor-interno-form p:first-child {
+        border: 2px solid#f01;
+    }
+    /*first -child 
+    busca el pimer elemnto 
+    /* <h1> <h12*/
+    /*  */
+
+    input :first-of-type{
+        color: #f01;
+
+    }
+    h2:nth-child(4){
+        color: #000;
+    }
