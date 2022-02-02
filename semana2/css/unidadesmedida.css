@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+font-family: arial;
+}
+.banner{
+    background-color: royalblue;
+    height: 50vh;
+    width: 50%;
+}
+
+
+.titulo{
+    font-size: 2em;
+    color: red;
+}
+.parrafo{
+    font-size: 40px;
+
+}
+  
+  .banner-medio {
+    height: 20vh;
+    background-color: rgb(255, 49, 210);
+    width: 60%;
+  }
+  
+  .banner-dos {
+    background-color: rgb(36, 201, 216);
+    height: 40vh;
+    width: 80%;
+  }
+  .banner-tres{
+      height: 300vh;
+      background-color: rgb(241, 209, 26);
+      width: 90%;
+  }
+  .banner-cuatro{
+      background-color: purple;
+      height: 40vh;
+      min-width: 50%;
+      max-width: 80%;
+  }

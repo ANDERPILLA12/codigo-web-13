@@ -17,161 +17,90 @@
     <meta name="twitter:description" content="Esta pagina es donde estoy aprendiendo HTML, CSS y JS" />
     <meta name="twitter:image"
         content="https://media-exp1.licdn.com/dms/image/C4E1BAQEfNIXEf_JoKg/company-background_10000/0?e=2159024400&v=beta&t=PhtZQJ8QA5Wy2lQzlfJL166pSeK_i3q2qfkD-xOMCcc" />
-
+    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <!-- esta etqieuta nos permite escrbvir csss dentro de html -->
-
 <body>
-    <!--hola-->
-    <div class="img-container">
-        <h1>Mi portafolio</h1>
-        <p>
-            Hola mi nombre es Anderson Pillaca, soy estudiante en Codigo,
-            estoy aprendiendo a programar HTML; CSS y JS.
-        </p>
+    <!-- Las etiqueta de titulo h1 - h6 -->
+    <div class="contenedor-principal">
+      <h1>Mi portafolio</h1>
+      <p>
+        Hola mi nombre es Linder Hassinger, soy docente en CodiGo, estoy
+        aprendiendo a programar en HTML, CSS y JS.
+      </p>
+      <img
+        src="./imagenes/ander1.jpg"
+        class="imagen-perfil"
+        alt=""
+        width="200"
+      />
+      <p>
+        <a class="btn-github" href="https://github.com/ANDERPILLA12">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+            alt=""
+            width="15"
+          />
+          GitHub
+        </a>
+      </p>
+      <img
+        width="600"
+        src="https://sutilweb.com/wp-content/uploads/2021/08/Lenguajes-de-programacion.jpg"
+        alt=""
+        class="imagen-programador"
+      />
+    </div>
 
-        <img src="./imagenes/ander1.jpg" alt="" class="imagen-perfil" width="200">
-
-
-        <p>
-            <a class="btn-github" href="https://github.com/ANDERPILLA12/codigo-web-13">
-                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" width="15"> GitHub</a>
-        </p>
-
-        <!-- listas en HTML -->
-        <!--<ol>
-        <li>elemento 1 </li>
-        <li>elemento 2</li>
-        <li>elemento 3 </li>
-
-    </ol>-->
-
-        <ul>
-
-            <li>
-                <h5>Semana 1</h5>
-                <img src="https://freeiconshop.com/wp-content/uploads/edd/folder-open-flat.png" alt="semana1"
-                    width="100" />
-            </li>
-            <li>
-                <h5>Semana 2</h5>
-                <img src="https://freeiconshop.com/wp-content/uploads/edd/folder-open-flat.png" alt="semana1"
-                    width="100" />
-            </li>
+    <!-- Lista en HTML -->
+    <!-- <ol>
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+    </ol> -->
+    <section class="contenedor-clases">
+      <div>
+        <ul class="lista-semanas">
+          <li>
+            <h5>Semana 1</h5>
+            <img
+              src="https://freeiconshop.com/wp-content/uploads/edd/folder-open-flat.png"
+              alt="semana1"
+              width="100"
+            />
+          </li>
+          <li>
+            <h5>Semana 2</h5>
+            <img
+              src="https://freeiconshop.com/wp-content/uploads/edd/folder-open-flat.png"
+              alt="semana1"
+              width="100"
+            />
+          </li>
         </ul>
-
-        <div>
-            <h3>Temas semana 1</h3>
-            <a class="link-referencia" href="./semana1/inputs.html">Link para inputs</a>
-            <a class="link-referencia" href="./semana1/form.html">Link a formularios</a>
-            <a class="link-referencia" href="./semana1/tablas.html">Link a Tablas</a>
-        </div>
-
-        <div>
-            <h3>Temas semana 2</h3>
-            <a class="link-referencia" href="./semana2/index.html">Introducción a CSS</a <h1>Mi primera pagina Web</h1>
-            <h2>titulo 2</h2>
-            <h3>titulo 3</h3>
-            <h4>titulo 4</h4>
-            <h5>titulo 5</h5>
-            <h6>Titulo 6</h6>
-
-            <!--parrafos-->
-
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium alias quibusdam fugit velit,
-                impedit cum quaerat placeat quasi, nobis in quia non, aliquam voluptatibus. Id porro qui at. Unde,
-                rerum.
-            </p>
-            <p>
-
-                Anderson Pillaca, 25 años, técnico en telecomunicaciones
-
-                Trabajo en WIN
-                Conocimientos en Programación: basico
-                Que espero al terminar el bootcamp: espero ser un programador de exito, para tener un trabajo y
-                desarrollar
-                proyectos que tengo en mente.
-                Hobbies: Futbol,Guitarra,css-go
-            </p>
-            <!--etiquet negrita-->
-            <p>
-                <b>Anderson pillaca</b>
-                <strong>Soy developer</strong>
-
-                <i>Naci en lima , peru </i>
-            </p>
-            <!-- subrrayado-->
-
-            <h4><u><i>MIS DATOS</i></u></h4>
-            <!-- BR: es para saltos de linea, pero no debemos usarlo en proyectos reales-->
-            <p>
-                Componentes de una computadora :
-                <br />
-                monitor
-                <br />
-                tecaldo
-                <br />
-                Mouse
-            </p>
-            <!--para poder citar textos-->
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium alias quibusdam fugit velit,
-                impedit cum quaerat placeat quasi, nobis in quia non, aliquam voluptatibus. Id porro qui at. Unde,
-                rerum.
-            </p>
-            <blockquote>
-                texto de un autor que quiere ser citado
-            </blockquote>
-            <!--Hipervinculos-->
-            <a href="https://www.youtube.com" target="-blank">abrir youtube</a>
-
-            <p>
-                <a href="https://www.google.com" target="-blank">abrir google</a>
-
-
-            </p>
-            <p>
-                <a href="https://www.linkedin.com" target="-blank">abrir linkedin</a>
-
-            </p>
-            <!--etiqeuetas multimedia-->
-            <img src=data:image/png;base64,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alt="dragon"
-                width="200" height="200">
-            <!--imagen local -->
-            <a href="https://www.youtube.com" target="-blank">abrir youtube>
-                <img src="./imagenes/YouTube-logo.png" alt="logo de youtube" width="200" height="200">
-            </a>
-
-            <a href="https://peruix.net/" target="-blank">abrir pit peru>
-                <img src="./imagenes/pit-logo.png" alt="logo de youtube" width="200" height="200">
-            </a>
-
-
-            <!--videos locales-->
-            <video controls autoplay muted width="200" height="400">
-                <source src="./videos/video.mp4" />
-            </video>
-            <!--audio mp3-->
-            <audio controls autoplay muted>
-                <source src="./audios/audio.mp3" />
-            </audio>
-
-
-            <!--iframe : se reproduce cualquier tipo de archivo pero no se tiene control de ello -->
-            <iframe src="./pdfs/WINET TELECOM Renuncia (3).pdf" frameborder="10" width="500" height="500"></iframe>
-            <iframe src="./videos/video.mp4" frameborder="0"></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/HiXLkL42tMU"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-
-
-
-
-
-
-</body>
+      </div>
+      <div>
+        <h3>Temas semana 1</h3>
+        <a class="link-referencia" href="./semana1/inputs.html"
+          >Link para inputs</a
+        >
+        <a class="link-referencia" href="./semana1/form.html"
+          >Link a formularios</a
+        >
+        <a class="link-referencia" href="./semana1/tablas.html"
+          >Link a Tablas</a
+        >
+      </div>
+      <hr class="divisor" />
+      <div>
+        <h3>Temas semana 2</h3>
+        <a class="link-referencia" href="./semana2/index.html"
+          >Introducción a CSS</a
+        >
+      </div>
+    </section>
+  </body>
 
 </html>
