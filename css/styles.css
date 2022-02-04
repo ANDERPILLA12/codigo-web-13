@@ -59,8 +59,10 @@ h3 {
 }
 
 .imagen-perfil {
+  
   border-radius: 50%;
   border: 2px solid #000;
+
 }
 
 .btn-github {
