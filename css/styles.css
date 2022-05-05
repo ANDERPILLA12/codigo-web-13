@@ -6,6 +6,38 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+  
+
+/* .header-nav{ */
+  
+  /* box-sizing: border-box; */
+  /* background: url("..//../imagenes/develop-deader.jpg"); */
+  /* object-fit: contain; */
+  /* background-size: auto; */
+  /* background-repeat: no-repeat; */
+  /* height: 70vh; */
+
+
+.menu-nav {
+ border-radius: 10px;
+  border-color: rgb(221, 25, 25);
+  width: 100%;
+  background-color: rgb(74, 165, 165);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .link-referencia {
   background-color: rgb(240, 199, 16);
